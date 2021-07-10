@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: '微軟正黑體';
+    }
+
+    body {
+        height: 100vh;
+        position: relative;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgb(131, 131, 131) 100%);
+    }
+
+    .container {
+        width: 800px;
+        height: 400px;
+        border: 1px solid rgb(184, 184, 184);
+        box-shadow: 5px 5px 3px 1px rgb(163, 163, 163);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container2 {
+        width: 800px;
+        height: 400px;
+        border: 1px solid rgb(184, 184, 184);
+        box-shadow: 5px 5px 5px 1px rgba(221, 221, 221, 1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        -webkit-box-reflect: below 0px linear-gradient(transparent 60%, rgb(255, 255, 255));
+    }
+
+    .box {
+        width: 200px;
+        height: 400px;
+        float: left;
+        position: relative;
+    }
+
+    .box1 {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 95%, rgb(221, 221, 221) 100%);
+    }
+
+    .box2 {
+        background: rgb(158,158,158);
+        background: linear-gradient(90deg, rgba(221, 221, 221) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 95%, rgba(221, 221, 221) 100%);
+    }
+
+    .box3 {
+        background: rgb(158,158,158);
+        background: linear-gradient(90deg, rgba(221, 221, 221) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 95%, rgba(221, 221, 221) 100%);
+    }
+
+    .box4 {
+        background: rgb(158,158,158);
+        background: linear-gradient(90deg, rgba(221, 221, 221) 0%, rgba(255,255,255,1) 5%);
+    }
+
+    .round {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .text {
+        font-size: 0.9rem;
+        text-align:justify;
+        margin: 0 10px;
+    }
+
+    .bg1 {
+        background: url(https://picsum.photos/100/100/?random=1); 
+    }
+
+    .bg2 {
+        background: url(https://picsum.photos/100/100/?random=2); 
+    }
+
+    .bg3 {
+        background: url(https://picsum.photos/100/100/?random=3); 
+    }
+
+    .bg4 {
+        background: url(https://picsum.photos/100/100/?random=4); 
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box1 box">
+            <div class="round bg1"></div>
+            <div class="text">
+                <span>家長辦理推坑王，不好忍不住，概念自身分配現場，方案面前公園等待以便點評合同沒事裝備螢幕世界，單位投資者，動物衝擊消費規定對不起一句最高方向，部分像是開發商補充，數字有點鐵路高度，警察自我，羅東工人行。</span>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="round bg2"></div>
+            <div class="text">到處三大人家，全新心中進行歲月上帝自己的歌手春天數量非常通信，別的奧客，大幅溫州意外，添加沒什麼，特色辦理一位當我電力深深當年等級政治查詢小孩，批評目光是我演員要去，採購身體投票有了相信廠家友情，我。</div>
+        </div>
+        <div class="box3 box">
+            <div class="round bg3"></div>
+            <div class="text">獨立小時避免整體準備，節省不去老公調節精靈這樣很有眼裡出台後面模擬我還可能會魯蛇，超級網站女朋友方法出來任務比賽費用上午廠商，法人需要如何溫州把我身材紅色採購爸爸我又不僅喜愛打擊，服飾一遍日子簡介傳。</div>
+        </div>
+        <div class="box4 box">
+            <div class="round bg4"></div>
+            <div class="text">新年種子，訓練擔任供求留下出版這就是不怕信用，基礎皇帝幹什麼處罰常用交友辦理業績簽名遠程風險二人，不在那種主營隨時我愛，包裝交通造成父母開發全文請求思維鐵路不去記憶心靈，別人房產一顆原本政策，我市死。</div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>
